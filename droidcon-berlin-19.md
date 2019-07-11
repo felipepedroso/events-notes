@@ -265,33 +265,33 @@ Wearables are a bet (WearOs who?) but how about augmentations?
 * How to reduce testing time? Automation!
 * Use the testers time better (battery, performance, etc)
 * Automation can't replace testers
-* Even with automation it was taking 1-3 days to test all the releasestwitter
-* What dtwitterere testing?
-* The cotwitteras not the same for everyone
-* Unit ttwitterng
-* Hexagotwitterr Ports & Adapters
-* "Tripltwitterlopers + Tester to develop features
-* Fast Ttwitter
-* Rely otwitterisolate the proper places that need to be testetwitter
-* Investtwitter
-    * Smtwitterue
-    * Betwitters
-* Contratwitterinteractions between consumers and producertwitter
+* Even with automation it was taking 1-3 days to test all the releases
+* What the Unit tests were testing?
+* The concept of Unit test was not the same for everyone
+* Unit tests => Code tests
+* Hexagon testing or Ports & Adapters
+* "Triple pairing": 2 developers + Tester to develop features
+* Fast Tests / Slow Tests
+* Rely on abstractions toisolate the proper places that need to be testeD
+* Invest on testability
+    * Small batches of value
+    * Better use of testers time
+* Contract test: interactions between consumers and producer
 
-## Why wtwitterrizing our app. An honest retrospective.
-* Speaketwitter](https://twitter.com/orbycius)
-* [Slidetwitterdeck.com/marcosholgado/why-we-ftwittering-our-app)
-* "Commotwittermon" - Voltaire
-* First twitterer country => Long builds, Painful challengtwitter
-* Convintwitterry hard (specially the ones that out of your teatwitter
-* What itwitter
-    * Fetwitter
-    * Cotwitter
-* Featurtwitter
-    * Intwitter
-    * Outwitter
-    * Litwitter
-* What itwitterto decide)
+## Why we failed at modularizing our app. An honest retrospective.
+* **Speaker**: [Marcos Holgado](https://twitter.com/orbycius)
+* [Slides](https://speakerdeck.com/marcosholgado/why-we-failed-at-modularizing-our-app)
+* "Common sense is not common" - Voltaire
+* First attempt: Flavor per country => Long builds, Painful challenges and chaos
+* Convincing people is hard (specially the ones that out of your team)
+* What is a module?
+    * Features
+    * Core
+* Features
+    * Inputs
+    * Outputs
+    * Listeners
+* What is a feature? (how to decide)
 * First module, bad decisions:
     * Complicated feature
     * Hard deadline
@@ -319,7 +319,7 @@ Wearables are a bet (WearOs who?) but how about augmentations?
     * Features as libraries
     * "Everything should be made as simple as possible, but no simpler." - Albert Einstein
 
-## Tacling Android at Scale
+## Tackling Android at Scale
 * **Speaker**: [Fabio Carballo](https://twitter.com/fabiocarballo)
 * [Slides](https://speakerdeck.com/fabiocarballo/tackling-android-at-scale)
 * Scale: Tech Readiness, Recruiting, Onboarding, Automation, Releases, Culture
